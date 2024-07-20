@@ -509,6 +509,7 @@ hr{
       padding: 10px;
     }
     .topnav{
+        max-height: 265px;
         text-align: left;
     }
     .topnav a:not(:first-child) {
@@ -631,10 +632,19 @@ hr{
       text-align: left;
       margin-bottom: 20px;
     }
+    .topnav img{
+      overflow: hidden;
+    }
+    .mainDeveloperCard .contact-cards{
+      margin-bottom: 10px;
+    }
   }
   @media screen and (max-width: 1400px){
     #developerCard{
       text-align: left;
       margin-bottom: 20px;
+    }
+    .mainDeveloperCard .contact-cards{
+      margin-bottom: 10px;
     }
   }
